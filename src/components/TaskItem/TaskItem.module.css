@@ -1,0 +1,38 @@
+article {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: var(--gray-100);
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  gap: 2rem;
+  max-height: 4.5rem;
+}
+
+article span {
+  width: 80%;
+}
+
+article svg {
+  cursor: pointer;
+}
+
+.lineThrough {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.checkBoxContainer {
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkBoxContainer input[type="checkbox"] {
+  width: 1.1rem;
+}
